@@ -2,33 +2,55 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        
         <title>Contact</title>
+
+        <link href="assets/css/style.css" rel="stylesheet">    
     </head>
 
     <body>
+        <!--  
+            Page Header -  This is common in all pages of the website:
+        
+            **TODO**
+            Find out if it is possible to keep the header and footer 
+            common some where and refer to it from all pages instead
+            of having code in every page of the website
+        -->
         <header>
             <H1 id="header-left">KAMAL SUKHIJA</H1>
             <section id="header-right">
-               <a href="index.html">About  |</a>
-               <a href="Portfolio.html">Portfolio  |</a>
-               <a href="Contact.html"> Contact</a>
+                <a href="index.html">About | </a>
+                <a href="Portfolio.html">Portfolio | </a>
+                <a href="Contact.html"> Contact</a>
             </section>
         </header>
 
-        <section>
+
+        <!--
+            Page's Main Content
+        -->
+        <main>
+            <br>
             <H2> Contact</H2>
             <hr>
             <form>
                     Name:<br>
-                    <input type="text" name="firstname"><br>
+                    <input type="text" name="name"><br><br>
                     Email:<br>
-                    <input type="text" name="lastname">
-                  </form>    
-        </section>
+                    <input type="email" name="email"><br><br>
+                    Message:<br>
+                    <textarea name="Message" cols="120" rows="10"></textarea><br><br>
+                    <input id = "submit" type="submit" name="submit" value="Submit">
 
+            </form>    
+        </main>
+
+        <!--
+            Page Footer
+        -->
         <footer>
             <copyright>Copywright &copy</copyright>
         </footer>
+        
     </body>
 </html>

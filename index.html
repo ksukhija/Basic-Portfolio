@@ -21,18 +21,44 @@
     </head>
 
     <body>
+        <!--  
+            Page Header -  This is common in all pages of the website:
+        
+            **TODO**
+            Find out if it is possible to keep the header and footer 
+            common some where and refer to it from all pages instead
+            of having code in every page of the website
+        -->
         <header>
-            <H1>KAMAL SUKHIJA</H1>
-            <a href="index.html">About  |</a>
-            <a href="Portfolio.html">Portfolio  |</a>
-            <a href="Contact.html"> Contact</a>
+            <H1 id="header-left">KAMAL SUKHIJA</H1>
+            <section id="header-right">
+                <a href="index.html">About | </a>
+                <a href="Portfolio.html">Portfolio | </a>
+                <a href="Contact.html"> Contact</a>
+            </section>
         </header>
+     
+        <!--
+            **TODO**
+            Need to get rid of this - must be a better way to fix the spacing
+        -->
+        <br>
 
-        <section>
+        <main>
+
+            <!--
+                Page's Main Code
+            -->
+
             <H2> About Me</H2>
+            
+            <!--
+                **TODO** 
+                Could not get the horizantal line thickness to change
+            -->
             <hr>
-                
-            <img src="assets/images/With Piku.jpg" alt="Kamal's Picture" height=250px width=150px>
+            
+            <img id="profile_img" src="assets/images/With Piku.jpg" alt="Kamal's Picture" height=375px width=220px>
             <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
@@ -40,10 +66,20 @@
                 It has survived not only five centuries, but also the leap into electronic typesetting, 
                 remaining essentially unchanged. It was popularised in the 1960s with the release of 
                 Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
-                software like Aldus PageMaker including versions of Lorem Ipsum.   
+                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of 
+                the printing and typesetting industry. It was popularised in the 1960s with the release of 
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of 
+                the printing and typesetting industry.It was popularised in the 1960s with the release of 
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of 
+                the printing and typesetting industry.It was popularised in the 1960s with the release of 
+                Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of 
+                the printing and typesetting industry.
             </p>
-            
-        </section>
+           
+        </main>
 
         <footer>
             <copyright>Copywright &copy</copyright>

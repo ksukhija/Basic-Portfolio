@@ -1,12 +1,112 @@
-header {
-    height:50px;
-    background-color:lightBlue;
+/*
+  The body covers the whole page's default settings
+*/
+body {
+    width:960px;
+    margin-top:0;
+    margin-left:100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:#777777;
+    line-height: 1.6;
+
 }
 
+/*
+Sets Headings Color
+*/
+
+h1,h2,h3 {
+    color:#4aaaa5
+}
+
+/*
+Sets Page's Header Setiings
+*/
+header {
+    height:75px;
+    background-color:#ffffff;
+    border:1px;
+    border-color: #cccccc;
+    border-style: solid;
+ 
+}
+
+/*
+Sets Page's Footer Setiings
+*/
+
+footer {
+    height:40px;
+    background-color:#666666;
+    border:1px;
+    border-color: #cccccc;
+    border-style: solid;
+    text-align: center;
+    color:whitesmoke;
+    padding:10px 0px  0px 0px;
+}
+
+/* 
+ ** TODO**
+ Tried to change the thickness of the Horizontal line, but had no affect - 
+ Need to Investigate
+*/
+hr {
+    size:4px;
+}
+
+/*
+Sets the pages's main section height. This was done so that the header, footer and
+the main section all show up on a typical computer screen
+*/
+main {
+    height:550px;
+}
+
+/*
+**  **TODO**
+**  Need to work on this to align the pictures as in the instructions
+*/
+.Portfolio_img{
+    padding:20px 40px 0px 20px;
+}
+
+#profile_img {
+   float: left;
+   margin:0px 20px 10px 0px;
+ }
+
+ /*
+ Settings to control the left size of the header
+ */
 #header-left {
     float:left;
+    margin:0px 0px 0px 50px;
+    padding:15px 40px 0px 40px;
+    background-color:#4aaaa5;
+    color:#ffffff;
+    height:60px;
+    
 }
 
+ /*
+ Settings to control the right size of the header
+ */
+
 #header-right {
+    margin:0px 50px 0px 0px;
+    padding:45px 0px 0px 0px;
     float:right;
-}
+   }
+
+
+/*
+Setting for the Submit Button
+*/
+#submit {
+    background-color:#4aaaa5;
+    color:#ffffff;
+    height:40px;
+    width:100px;
+    font-size: 20px;
+    }
