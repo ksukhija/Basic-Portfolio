@@ -1,0 +1,12 @@
+header {
+    height:50px;
+    background-color:lightBlue;
+}
+
+#header-left {
+    float:left;
+}
+
+#header-right {
+    float:right;
+}
