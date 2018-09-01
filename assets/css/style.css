@@ -2,12 +2,14 @@
   The body covers the whole page's default settings
 */
 body {
-    width:960px;
+    /*width:960px;*/
     margin-top:0;
-    margin-left:100px;
+    /*margin-left:100px;*/
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:#777777;
     line-height: 1.6;
+    background-image:url("../images/full-bloom.png");
+
 
 }
 
@@ -23,12 +25,11 @@ h1,h2,h3 {
 Sets Page's Header Setiings
 */
 header {
+    width:100%;
     height:75px;
     background-color:#ffffff;
-    border:1px;
-    border-color: #cccccc;
-    border-style: solid;
- 
+    border-bottom: 1px solid #cccccc;
+    margin-bottom:0px;
 }
 
 /*
@@ -36,6 +37,7 @@ Sets Page's Footer Setiings
 */
 
 footer {
+    width:100%;
     height:40px;
     background-color:#666666;
     border:1px;
@@ -60,15 +62,55 @@ Sets the pages's main section height. This was done so that the header, footer a
 the main section all show up on a typical computer screen
 */
 main {
+    width:960px;
     height:550px;
+    margin-top:15px;
+    margin-left:300px;
+    padding-left: 30px;
+    background-color:#ffffff;
+    border : 1px solid #dddddd;
+}
+
+form {
+    margin-top:30px;
+}
+
+.line {
+    width:98%;
+    border-bottom: 2px solid #777777;
+    margin-bottom: 10px;
+    
 }
 
 /*
 **  **TODO**
 **  Need to work on this to align the pictures as in the instructions
 */
-.Portfolio_img{
-    padding:20px 40px 0px 20px;
+#Portfolio_img1{
+    float:left;
+    margin-right:200px;
+    margin-bottom:50px;
+}
+
+#Portfolio_img2{
+    margin-right:200px;
+    margin-bottom:50px;
+    float:left;
+
+}
+
+#Portfolio_img3{
+    clear:left;
+    float:left;
+    margin-right:50px;
+    margin-bottom:50px;
+}
+
+#Portfolio_img4{
+    float:left;
+    margin-top:30px;
+    margin-right:10px;
+    margin-bottom:50px;
 }
 
 #profile_img {
@@ -81,22 +123,36 @@ main {
  */
 #header-left {
     float:left;
-    margin:0px 0px 0px 50px;
+    margin:0px 0px 0px 300px;
     padding:15px 40px 0px 40px;
     background-color:#4aaaa5;
     color:#ffffff;
     height:60px;
-    
 }
+
+/*
+** Settings to control the first element of the right size of the header
+** This control's the starting position of the navigational elements on
+** the header
+*/
+
+#first-right-header-element{
+    margin-left:385px;
+    margin-right:20px;
+    float:left;
+    padding-top:20px;
+ 
+   }
+
 
  /*
  Settings to control the right size of the header
  */
 
-#header-right {
-    margin:0px 50px 0px 0px;
-    padding:45px 0px 0px 0px;
-    float:right;
+.other-right-header-element{
+    margin-right:20px;
+    padding-top:20px;
+    float:left;
    }
 
 
